@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct TabBarView: View {
+    let user: User
     @State private var selectedTab = 0
     
     var body: some View {
@@ -43,7 +44,7 @@ struct TabBarView: View {
                 .onAppear {selectedTab = 3}
                 .tag(3)
             
-            Text("Profile View")
+            SelfProfileView(user: user)
                 .tabItem {
                     Label("Profile", systemImage: selectedTab == 4 ? "person.fill" : "person")
                         .environment(\.symbolVariants, selectedTab == 4 ? .fill : .none)
@@ -56,5 +57,5 @@ struct TabBarView: View {
 }
 
 #Preview {
-    TabBarView()
+    TabBarView(user: User.MOCK_USER[0])
 }
