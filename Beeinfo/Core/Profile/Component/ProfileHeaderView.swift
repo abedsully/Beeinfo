@@ -35,7 +35,7 @@ struct ProfileHeaderView: View {
                     .font(.subheadline)
                     .fontWeight(.semibold)
                     .foregroundStyle(.white)
-                    .frame(maxWidth: .infinity, maxHeight: 32)
+                    .frame(maxWidth: .infinity, minHeight: 32)
                     .background(Constant.mainColor)
                     .cornerRadius(10)
             }

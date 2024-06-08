@@ -48,6 +48,7 @@ struct BeetsCell: View {
             
             Divider()
         }
+        .padding(.vertical, 4)
     }
 }
 

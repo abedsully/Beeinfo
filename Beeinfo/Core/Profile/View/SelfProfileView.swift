@@ -11,32 +11,34 @@ struct SelfProfileView: View {
     let user: User
     
     var body: some View {
-        VStack (alignment: .leading){
-            HStack {
+        ScrollView {
+            VStack (alignment: .leading){
+                HStack {
+                    Spacer()
+                    
+                    Text("My Profile")
+                        .font(.body)
+                        .fontWeight(.semibold)
+                        .foregroundStyle(Constant.textColor)
+                    
+                    Spacer()
+                    
+                    Image(systemName: "line.3.horizontal")
+                        .font(.body)
+                        .fontWeight(.semibold)
+                        .foregroundStyle(Constant.textColor)
+                }
+                .padding(.vertical)
+                
+                ProfileHeaderView(user: user)
+                
+                UserContentListView(user: user)
+                
                 Spacer()
-                
-                Text("My Profile")
-                    .font(.body)
-                    .fontWeight(.semibold)
-                    .foregroundStyle(Constant.textColor)
-                
-                Spacer()
-                
-                Image(systemName: "line.3.horizontal")
-                    .font(.body)
-                    .fontWeight(.semibold)
-                    .foregroundStyle(Constant.textColor)
             }
-            .padding(.vertical)
-            
-            ProfileHeaderView(user: user)
-            
-            UserContentListView(user: user)
-            
-            Spacer()
+            .padding(.horizontal)
         }
-        .padding(.horizontal)
-        
+        .scrollIndicators(.never)
     }
 }
 

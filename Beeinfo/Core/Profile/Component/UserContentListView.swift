@@ -56,7 +56,9 @@ struct UserContentListView: View {
             LazyVStack {
                 switch selectedFilter {
                 case .beets:
-                    Text("Beets")
+                    ForEach(0...5, id: \.self) {_ in 
+                        BeetsCell(beet: Beet.MOCK_BEET[0])
+                    }
                 case .beesh:
                     Text("Beesh")
                 }
