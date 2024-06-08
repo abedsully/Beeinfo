@@ -21,7 +21,7 @@ struct TabBarView: View {
                 .onAppear {selectedTab = 0}
                 .tag(0)
             
-            Text("Search View")
+            SearchView(user: user)
                 .tabItem {
                     Label("Search", systemImage: "magnifyingglass")
                 }
