@@ -35,7 +35,7 @@ struct SelfProfileView: View {
             
             Spacer()
         }
-        .padding(.horizontal, 20)
+        .padding(.horizontal)
         
     }
 }

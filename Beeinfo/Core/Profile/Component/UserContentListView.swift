@@ -28,18 +28,19 @@ struct UserContentListView: View {
                     VStack {
                         Text(filter.title)
                             .font(.subheadline)
+                            .foregroundStyle(selectedFilter == filter ? Constant.textColor : Color(.systemGray2))
                             .fontWeight(selectedFilter == filter ? .semibold : .regular)
                         
                         if selectedFilter == filter {
                             Rectangle()
-                                .foregroundColor(.black)
+                                .foregroundColor(Constant.textColor)
                                 .frame(width: filterBarWidth, height: 1)
                                 .matchedGeometryEffect(id: "item", in: animation)
                         }
                         
                         else {
                             Rectangle()
-                                .foregroundColor(.clear)
+                                .foregroundColor(Color(.systemGray4))
                                 .frame(width: filterBarWidth, height: 1)
                         }
                     }

@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		3A9D983C2C0F5F90003EC625 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D983B2C0F5F8F003EC625 /* Constant.swift */; };
 		3A9D983F2C0F5FEA003EC625 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D983E2C0F5FEA003EC625 /* SplashView.swift */; };
+		A0499A632C13FDE900BA6AC3 /* BeetsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0499A622C13FDE900BA6AC3 /* BeetsCell.swift */; };
+		A0499A652C13FE0600BA6AC3 /* Beet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0499A642C13FE0600BA6AC3 /* Beet.swift */; };
+		A0499A6C2C14043D00BA6AC3 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0499A6B2C14043D00BA6AC3 /* UserCell.swift */; };
+		A0499A6E2C1404F700BA6AC3 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0499A6D2C1404F700BA6AC3 /* SearchView.swift */; };
+		A0499A702C14089800BA6AC3 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0499A6F2C14089800BA6AC3 /* UserListView.swift */; };
+		A0499A722C140E4500BA6AC3 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0499A712C140E4500BA6AC3 /* SearchBarView.swift */; };
 		A0B287122C1310CF00723BBF /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B287112C1310CF00723BBF /* TabBarView.swift */; };
 		A0C04FE92C133F6A0092A246 /* SelfProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C04FE82C133F6A0092A246 /* SelfProfileView.swift */; };
 		A0C04FEB2C133FA50092A246 /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C04FEA2C133FA50092A246 /* CircularProfileImageView.swift */; };
@@ -26,9 +32,15 @@
 /* Begin PBXFileReference section */
 		3A9D983B2C0F5F8F003EC625 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		3A9D983E2C0F5FEA003EC625 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A0499A622C13FDE900BA6AC3 /* BeetsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeetsCell.swift; sourceTree = "<group>"; };
+		A0499A642C13FE0600BA6AC3 /* Beet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Beet.swift; path = Beeinfo/Components/Beet.swift; sourceTree = SOURCE_ROOT; };
+		A0499A6B2C14043D00BA6AC3 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		A0499A6D2C1404F700BA6AC3 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		A0499A6F2C14089800BA6AC3 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		A0499A712C140E4500BA6AC3 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		A0B287112C1310CF00723BBF /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		A0C04FE82C133F6A0092A246 /* SelfProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfProfileView.swift; sourceTree = "<group>"; };
-		A0C04FEA2C133FA50092A246 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircularProfileImageView.swift; path = Beeinfo/Core/Profile/View/CircularProfileImageView.swift; sourceTree = SOURCE_ROOT; };
+		A0C04FEA2C133FA50092A246 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircularProfileImageView.swift; path = Beeinfo/Components/CircularProfileImageView.swift; sourceTree = SOURCE_ROOT; };
 		A0C04FEC2C1340000092A246 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = User.swift; path = Beeinfo/Core/Profile/View/User.swift; sourceTree = SOURCE_ROOT; };
 		A0C04FEE2C13400A0092A246 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BaseModel.swift; path = Beeinfo/Core/Profile/View/BaseModel.swift; sourceTree = SOURCE_ROOT; };
 		A0C04FF12C1348C30092A246 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
@@ -64,9 +76,9 @@
 			isa = PBXGroup;
 			children = (
 				A0C04FE62C133F3C0092A246 /* Profile */,
-				A0B287102C1310BF00723BBF /* TabBar */,
+				A0499A662C1403CB00BA6AC3 /* Search */,
 				3A9D983D2C0F5FB9003EC625 /* Splash */,
-				A0FE3D7A2C0F5CC60035374D /* ContentView.swift */,
+				A0B287102C1310BF00723BBF /* TabBar */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -74,7 +86,11 @@
 		3A9D98362C0F5EEE003EC625 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				A0499A6B2C14043D00BA6AC3 /* UserCell.swift */,
 				A0C04FEA2C133FA50092A246 /* CircularProfileImageView.swift */,
+				A0499A622C13FDE900BA6AC3 /* BeetsCell.swift */,
+				A0499A6F2C14089800BA6AC3 /* UserListView.swift */,
+				A0499A712C140E4500BA6AC3 /* SearchBarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -91,6 +107,7 @@
 			children = (
 				A0C04FEC2C1340000092A246 /* User.swift */,
 				A0C04FEE2C13400A0092A246 /* BaseModel.swift */,
+				A0499A642C13FE0600BA6AC3 /* Beet.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -116,6 +133,30 @@
 				3A9D983E2C0F5FEA003EC625 /* SplashView.swift */,
 			);
 			path = Splash;
+			sourceTree = "<group>";
+		};
+		A0499A662C1403CB00BA6AC3 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				A0499A6A2C14042E00BA6AC3 /* View */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		A0499A672C1403E300BA6AC3 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				A0FE3D7A2C0F5CC60035374D /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		A0499A6A2C14042E00BA6AC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0499A6D2C1404F700BA6AC3 /* SearchView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		A0B287102C1310BF00723BBF /* TabBar */ = {
@@ -180,13 +221,14 @@
 		A0FE3D772C0F5CC60035374D /* Beeinfo */ = {
 			isa = PBXGroup;
 			children = (
-				3A9D983A2C0F5F7A003EC625 /* Utils */,
-				3A9D98392C0F5F51003EC625 /* Services */,
-				3A9D98382C0F5F47003EC625 /* Model */,
-				3A9D98372C0F5F36003EC625 /* Extensions */,
+				3A9D98342C0F5EA0003EC625 /* App */,
 				3A9D98362C0F5EEE003EC625 /* Components */,
 				3A9D98352C0F5EB8003EC625 /* Core */,
-				3A9D98342C0F5EA0003EC625 /* App */,
+				3A9D98372C0F5F36003EC625 /* Extensions */,
+				3A9D98382C0F5F47003EC625 /* Model */,
+				A0499A672C1403E300BA6AC3 /* Root */,
+				3A9D98392C0F5F51003EC625 /* Services */,
+				3A9D983A2C0F5F7A003EC625 /* Utils */,
 				A0FE3D7C2C0F5CCE0035374D /* Assets.xcassets */,
 				A0FE3D7E2C0F5CCE0035374D /* Preview Content */,
 			);
@@ -271,15 +313,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0499A702C14089800BA6AC3 /* UserListView.swift in Sources */,
 				A0C04FEF2C13400A0092A246 /* BaseModel.swift in Sources */,
 				A0C04FEB2C133FA50092A246 /* CircularProfileImageView.swift in Sources */,
 				A0FE3D7B2C0F5CC60035374D /* ContentView.swift in Sources */,
+				A0499A652C13FE0600BA6AC3 /* Beet.swift in Sources */,
 				3A9D983F2C0F5FEA003EC625 /* SplashView.swift in Sources */,
 				A0C04FF42C13494E0092A246 /* UserContentListView.swift in Sources */,
 				A0C04FE92C133F6A0092A246 /* SelfProfileView.swift in Sources */,
 				A0C04FED2C1340000092A246 /* User.swift in Sources */,
+				A0499A6C2C14043D00BA6AC3 /* UserCell.swift in Sources */,
+				A0499A722C140E4500BA6AC3 /* SearchBarView.swift in Sources */,
 				A0FE3D792C0F5CC60035374D /* BeeinfoApp.swift in Sources */,
 				A0C04FF22C1348C30092A246 /* ProfileHeaderView.swift in Sources */,
+				A0499A632C13FDE900BA6AC3 /* BeetsCell.swift in Sources */,
+				A0499A6E2C1404F700BA6AC3 /* SearchView.swift in Sources */,
 				A0B287122C1310CF00723BBF /* TabBarView.swift in Sources */,
 				A0C04FF72C134AF80092A246 /* ProfileActivityFilter.swift in Sources */,
 				3A9D983C2C0F5F90003EC625 /* Constant.swift in Sources */,
