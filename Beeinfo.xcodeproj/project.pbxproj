@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		3A9D983C2C0F5F90003EC625 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D983B2C0F5F8F003EC625 /* Constant.swift */; };
 		3A9D983F2C0F5FEA003EC625 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9D983E2C0F5FEA003EC625 /* SplashView.swift */; };
+		A04425A42C1E770A008A24F6 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04425A32C1E770A008A24F6 /* NotificationCell.swift */; };
+		A04425A62C1E7A41008A24F6 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04425A52C1E7A41008A24F6 /* NotificationView.swift */; };
 		A0499A632C13FDE900BA6AC3 /* BeetsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0499A622C13FDE900BA6AC3 /* BeetsCell.swift */; };
 		A0499A652C13FE0600BA6AC3 /* Beet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0499A642C13FE0600BA6AC3 /* Beet.swift */; };
 		A0499A6C2C14043D00BA6AC3 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0499A6B2C14043D00BA6AC3 /* UserCell.swift */; };
 		A0499A6E2C1404F700BA6AC3 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0499A6D2C1404F700BA6AC3 /* SearchView.swift */; };
 		A0499A702C14089800BA6AC3 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0499A6F2C14089800BA6AC3 /* UserListView.swift */; };
 		A0499A722C140E4500BA6AC3 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0499A712C140E4500BA6AC3 /* SearchBarView.swift */; };
+		A071D3612C15B17900B073A9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A071D3602C15B17900B073A9 /* HomeView.swift */; };
+		A071D3662C15B44D00B073A9 /* BeetCategoryFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A071D3652C15B44D00B073A9 /* BeetCategoryFilter.swift */; };
 		A0B287122C1310CF00723BBF /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0B287112C1310CF00723BBF /* TabBarView.swift */; };
 		A0C04FE92C133F6A0092A246 /* SelfProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C04FE82C133F6A0092A246 /* SelfProfileView.swift */; };
 		A0C04FEB2C133FA50092A246 /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C04FEA2C133FA50092A246 /* CircularProfileImageView.swift */; };
@@ -23,6 +27,7 @@
 		A0C04FF22C1348C30092A246 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C04FF12C1348C30092A246 /* ProfileHeaderView.swift */; };
 		A0C04FF42C13494E0092A246 /* UserContentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C04FF32C13494E0092A246 /* UserContentListView.swift */; };
 		A0C04FF72C134AF80092A246 /* ProfileActivityFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C04FF62C134AF80092A246 /* ProfileActivityFilter.swift */; };
+		A0FE02802C1DEB8D00B69E6C /* AddBeetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FE027F2C1DEB8D00B69E6C /* AddBeetsView.swift */; };
 		A0FE3D792C0F5CC60035374D /* BeeinfoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FE3D782C0F5CC60035374D /* BeeinfoApp.swift */; };
 		A0FE3D7B2C0F5CC60035374D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FE3D7A2C0F5CC60035374D /* ContentView.swift */; };
 		A0FE3D7D2C0F5CCE0035374D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0FE3D7C2C0F5CCE0035374D /* Assets.xcassets */; };
@@ -32,12 +37,16 @@
 /* Begin PBXFileReference section */
 		3A9D983B2C0F5F8F003EC625 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		3A9D983E2C0F5FEA003EC625 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		A04425A32C1E770A008A24F6 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		A04425A52C1E7A41008A24F6 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		A0499A622C13FDE900BA6AC3 /* BeetsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeetsCell.swift; sourceTree = "<group>"; };
 		A0499A642C13FE0600BA6AC3 /* Beet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Beet.swift; path = Beeinfo/Components/Beet.swift; sourceTree = SOURCE_ROOT; };
 		A0499A6B2C14043D00BA6AC3 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		A0499A6D2C1404F700BA6AC3 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		A0499A6F2C14089800BA6AC3 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
 		A0499A712C140E4500BA6AC3 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		A071D3602C15B17900B073A9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A071D3652C15B44D00B073A9 /* BeetCategoryFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeetCategoryFilter.swift; sourceTree = "<group>"; };
 		A0B287112C1310CF00723BBF /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		A0C04FE82C133F6A0092A246 /* SelfProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfProfileView.swift; sourceTree = "<group>"; };
 		A0C04FEA2C133FA50092A246 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircularProfileImageView.swift; path = Beeinfo/Components/CircularProfileImageView.swift; sourceTree = SOURCE_ROOT; };
@@ -46,6 +55,7 @@
 		A0C04FF12C1348C30092A246 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		A0C04FF32C13494E0092A246 /* UserContentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContentListView.swift; sourceTree = "<group>"; };
 		A0C04FF62C134AF80092A246 /* ProfileActivityFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActivityFilter.swift; sourceTree = "<group>"; };
+		A0FE027F2C1DEB8D00B69E6C /* AddBeetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBeetsView.swift; sourceTree = "<group>"; };
 		A0FE3D752C0F5CC60035374D /* Beeinfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beeinfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0FE3D782C0F5CC60035374D /* BeeinfoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeinfoApp.swift; sourceTree = "<group>"; };
 		A0FE3D7A2C0F5CC60035374D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,7 +85,10 @@
 		3A9D98352C0F5EB8003EC625 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				A0FE027D2C1DEB7700B69E6C /* AddBeets */,
+				A071D35E2C15AF4200B073A9 /* Home */,
 				A0C04FE62C133F3C0092A246 /* Profile */,
+				A04425A02C1E76F0008A24F6 /* Notifications */,
 				A0499A662C1403CB00BA6AC3 /* Search */,
 				3A9D983D2C0F5FB9003EC625 /* Splash */,
 				A0B287102C1310BF00723BBF /* TabBar */,
@@ -135,6 +148,31 @@
 			path = Splash;
 			sourceTree = "<group>";
 		};
+		A04425A02C1E76F0008A24F6 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				A04425A22C1E76FE008A24F6 /* Component */,
+				A04425A12C1E76FA008A24F6 /* View */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		A04425A12C1E76FA008A24F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A04425A52C1E7A41008A24F6 /* NotificationView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A04425A22C1E76FE008A24F6 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				A04425A32C1E770A008A24F6 /* NotificationCell.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		A0499A662C1403CB00BA6AC3 /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -157,6 +195,39 @@
 				A0499A6D2C1404F700BA6AC3 /* SearchView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A071D35E2C15AF4200B073A9 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A071D3672C15B5ED00B073A9 /* Component */,
+				A071D3622C15B40400B073A9 /* Extension */,
+				A071D35F2C15B16A00B073A9 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A071D35F2C15B16A00B073A9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A071D3602C15B17900B073A9 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A071D3622C15B40400B073A9 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A071D3652C15B44D00B073A9 /* BeetCategoryFilter.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		A071D3672C15B5ED00B073A9 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 		A0B287102C1310BF00723BBF /* TabBar */ = {
@@ -200,6 +271,22 @@
 				A0C04FF62C134AF80092A246 /* ProfileActivityFilter.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		A0FE027D2C1DEB7700B69E6C /* AddBeets */ = {
+			isa = PBXGroup;
+			children = (
+				A0FE027E2C1DEB8500B69E6C /* View */,
+			);
+			path = AddBeets;
+			sourceTree = "<group>";
+		};
+		A0FE027E2C1DEB8500B69E6C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A0FE027F2C1DEB8D00B69E6C /* AddBeetsView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		A0FE3D6C2C0F5CC60035374D = {
@@ -317,6 +404,7 @@
 				A0C04FEF2C13400A0092A246 /* BaseModel.swift in Sources */,
 				A0C04FEB2C133FA50092A246 /* CircularProfileImageView.swift in Sources */,
 				A0FE3D7B2C0F5CC60035374D /* ContentView.swift in Sources */,
+				A04425A62C1E7A41008A24F6 /* NotificationView.swift in Sources */,
 				A0499A652C13FE0600BA6AC3 /* Beet.swift in Sources */,
 				3A9D983F2C0F5FEA003EC625 /* SplashView.swift in Sources */,
 				A0C04FF42C13494E0092A246 /* UserContentListView.swift in Sources */,
@@ -325,12 +413,16 @@
 				A0499A6C2C14043D00BA6AC3 /* UserCell.swift in Sources */,
 				A0499A722C140E4500BA6AC3 /* SearchBarView.swift in Sources */,
 				A0FE3D792C0F5CC60035374D /* BeeinfoApp.swift in Sources */,
+				A04425A42C1E770A008A24F6 /* NotificationCell.swift in Sources */,
 				A0C04FF22C1348C30092A246 /* ProfileHeaderView.swift in Sources */,
 				A0499A632C13FDE900BA6AC3 /* BeetsCell.swift in Sources */,
 				A0499A6E2C1404F700BA6AC3 /* SearchView.swift in Sources */,
+				A0FE02802C1DEB8D00B69E6C /* AddBeetsView.swift in Sources */,
 				A0B287122C1310CF00723BBF /* TabBarView.swift in Sources */,
 				A0C04FF72C134AF80092A246 /* ProfileActivityFilter.swift in Sources */,
 				3A9D983C2C0F5F90003EC625 /* Constant.swift in Sources */,
+				A071D3612C15B17900B073A9 /* HomeView.swift in Sources */,
+				A071D3662C15B44D00B073A9 /* BeetCategoryFilter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

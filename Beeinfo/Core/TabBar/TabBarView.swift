@@ -9,11 +9,12 @@ import SwiftUI
 
 struct TabBarView: View {
     let user: User
+    
     @State private var selectedTab = 0
     
     var body: some View {
         TabView(selection: $selectedTab) {
-            Text("Home View")
+            HomeView()
                 .tabItem {
                     Label("Home", systemImage: selectedTab == 0 ? "house.fill" : "house")
                         .environment(\.symbolVariants, selectedTab == 0 ? .fill : .none)
@@ -28,7 +29,7 @@ struct TabBarView: View {
                 .onAppear {selectedTab = 1}
                 .tag(1)
             
-            Text("Add Beets View")
+            AddBeetsView(tabIndex: $selectedTab, user: user)
                 .tabItem {
                     Label("Add Beets", systemImage: selectedTab == 2 ? "plus.square.fill" : "plus.square")
                         .environment(\.symbolVariants, selectedTab == 2 ? .fill : .none)
@@ -36,7 +37,7 @@ struct TabBarView: View {
                 .onAppear {selectedTab = 2}
                 .tag(2)
             
-            Text("Notifications View")
+            NotificationView()
                 .tabItem {
                     Label("Notifications", systemImage: selectedTab == 3 ? "bell.fill" : "bell")
                         .environment(\.symbolVariants, selectedTab == 3 ? .fill : .none)
