@@ -39,6 +39,7 @@ struct HomeView: View {
                 switch selectedCategory {
                 case .all:
                     BeetsCell(beet: Beet.MOCK_BEET[0])
+                    BeetsCell(beet: Beet.MOCK_BEET[1])
                 case .fess:
                     Text("Fess")
                 case .points:

@@ -57,7 +57,7 @@ struct UserContentListView: View {
                 switch selectedFilter {
                 case .beets:
                     ForEach(0...5, id: \.self) {_ in 
-                        BeetsCell(beet: Beet.MOCK_BEET[0])
+                        BeetsCell(beet: Beet.MOCK_BEET[1])
                     }
                 case .beesh:
                     Text("Beesh")

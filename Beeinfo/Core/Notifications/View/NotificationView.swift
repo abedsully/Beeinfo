@@ -14,7 +14,7 @@ struct NotificationView: View {
             ScrollView {
                 LazyVStack {
                     ForEach(0...5, id: \.self) { beet in
-                        NotificationCell(beet: Beet.MOCK_BEET[0])
+                        NotificationCell(beet: Beet.MOCK_BEET[1])
                     }
                 }
                 .padding(.horizontal, 5)

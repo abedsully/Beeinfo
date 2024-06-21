@@ -27,6 +27,7 @@
 		A0C04FF22C1348C30092A246 /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C04FF12C1348C30092A246 /* ProfileHeaderView.swift */; };
 		A0C04FF42C13494E0092A246 /* UserContentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C04FF32C13494E0092A246 /* UserContentListView.swift */; };
 		A0C04FF72C134AF80092A246 /* ProfileActivityFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C04FF62C134AF80092A246 /* ProfileActivityFilter.swift */; };
+		A0EDE0932C25618B003F6B18 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EDE0922C25618B003F6B18 /* ProfileView.swift */; };
 		A0FE02802C1DEB8D00B69E6C /* AddBeetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FE027F2C1DEB8D00B69E6C /* AddBeetsView.swift */; };
 		A0FE3D792C0F5CC60035374D /* BeeinfoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FE3D782C0F5CC60035374D /* BeeinfoApp.swift */; };
 		A0FE3D7B2C0F5CC60035374D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FE3D7A2C0F5CC60035374D /* ContentView.swift */; };
@@ -55,6 +56,7 @@
 		A0C04FF12C1348C30092A246 /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		A0C04FF32C13494E0092A246 /* UserContentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContentListView.swift; sourceTree = "<group>"; };
 		A0C04FF62C134AF80092A246 /* ProfileActivityFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileActivityFilter.swift; sourceTree = "<group>"; };
+		A0EDE0922C25618B003F6B18 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		A0FE027F2C1DEB8D00B69E6C /* AddBeetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBeetsView.swift; sourceTree = "<group>"; };
 		A0FE3D752C0F5CC60035374D /* Beeinfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beeinfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0FE3D782C0F5CC60035374D /* BeeinfoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeeinfoApp.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		3A9D98372C0F5F36003EC625 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				A071D3652C15B44D00B073A9 /* BeetCategoryFilter.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -201,7 +204,6 @@
 			isa = PBXGroup;
 			children = (
 				A071D3672C15B5ED00B073A9 /* Component */,
-				A071D3622C15B40400B073A9 /* Extension */,
 				A071D35F2C15B16A00B073A9 /* View */,
 			);
 			path = Home;
@@ -213,14 +215,6 @@
 				A071D3602C15B17900B073A9 /* HomeView.swift */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		A071D3622C15B40400B073A9 /* Extension */ = {
-			isa = PBXGroup;
-			children = (
-				A071D3652C15B44D00B073A9 /* BeetCategoryFilter.swift */,
-			);
-			path = Extension;
 			sourceTree = "<group>";
 		};
 		A071D3672C15B5ED00B073A9 /* Component */ = {
@@ -252,6 +246,7 @@
 			isa = PBXGroup;
 			children = (
 				A0C04FE82C133F6A0092A246 /* SelfProfileView.swift */,
+				A0EDE0922C25618B003F6B18 /* ProfileView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -416,6 +411,7 @@
 				A04425A42C1E770A008A24F6 /* NotificationCell.swift in Sources */,
 				A0C04FF22C1348C30092A246 /* ProfileHeaderView.swift in Sources */,
 				A0499A632C13FDE900BA6AC3 /* BeetsCell.swift in Sources */,
+				A0EDE0932C25618B003F6B18 /* ProfileView.swift in Sources */,
 				A0499A6E2C1404F700BA6AC3 /* SearchView.swift in Sources */,
 				A0FE02802C1DEB8D00B69E6C /* AddBeetsView.swift in Sources */,
 				A0B287122C1310CF00723BBF /* TabBarView.swift in Sources */,

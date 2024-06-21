@@ -28,6 +28,16 @@ struct BeetsCell: View {
                     .foregroundStyle(Color(.systemGray2))
             }
             
+            VStack {
+                if let beetImage = beet.beetImage {
+                    Image(beetImage)
+                        .resizable()
+                        .frame(width: 180, height: 180)
+                }
+            }
+            .frame(maxWidth: .infinity, alignment: .center)
+
+            
             Text(beet.beetCaption)
                 .font(.subheadline)
                 .padding(.vertical, 8)
@@ -53,5 +63,5 @@ struct BeetsCell: View {
 }
 
 #Preview {
-    BeetsCell(beet: Beet.MOCK_BEET[0])
+    BeetsCell(beet: Beet.MOCK_BEET[1])
 }

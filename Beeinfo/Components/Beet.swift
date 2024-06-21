@@ -21,6 +21,7 @@ struct Beet {
 
 extension Beet {
     static var MOCK_BEET: [Beet] = [
-        .init(id: NSUUID().uuidString, ownerUid: NSUUID().uuidString, beetCaption: "Disini ada yang mau di kesulitan menang kalau main Valorant? Kalau memang iya, silahkan ajak saya main. Id saya: #zyponlolz. Jangan lupa ajak saya ya kalau kalian mau menang!", beetImage: "profile",  beeshCount: 20, commentCount: 5, beetType: "Fess", user: User.MOCK_USER[0], didBeesh: false)
+        .init(id: NSUUID().uuidString, ownerUid: NSUUID().uuidString, beetCaption: "Disini ada yang mau di kesulitan menang kalau main Valorant? Kalau memang iya, silahkan ajak saya main. Id saya: #zyponlolz. Jangan lupa ajak saya ya kalau kalian mau menang!",  beeshCount: 20, commentCount: 5, beetType: BeetCategoryFilter.fess.title, user: User.MOCK_USER[0], didBeesh: false),
+        .init(id: NSUUID().uuidString, ownerUid: NSUUID().uuidString, beetCaption:  "Disini ada yang mau di kesulitan menang kalau main Valorant? Kalau memang iya, silahkan ajak saya main. Id saya: #zyponlolz. Jangan lupa ajak saya ya kalau kalian mau menang!", beetImage: "profile",  beeshCount: 20, commentCount: 5, beetType: BeetCategoryFilter.tutor.title, user: User.MOCK_USER[0], didBeesh: false)
     ]
 }
